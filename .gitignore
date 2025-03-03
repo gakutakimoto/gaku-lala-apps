@@ -1,16 +1,16 @@
-data/*.db3
+# Git管理から除外するファイル一覧
+
+# CSVデータ
 data/*.csv
-dump.sql
-.DS_Store
+
+# SQLiteデータベースファイル
 data/*.db3
-data/*.csv
-dump.sql
+
+# SQLダンプファイル
+*.sql
+
+# Macの不要ファイル
 .DS_Store
-data/swing.csv
-data/swing_detail.csv
-data/t3.db3
-dump.sql
-data/swing.csv
-data/swing_detail.csv
-data/t3.db3
-dump.sql
+
+# Python仮想環境
+venv/
